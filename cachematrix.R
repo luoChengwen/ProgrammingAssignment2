@@ -12,7 +12,7 @@ makeCacheMatrix <- function(x = matrix()) {
         invers <- NULL
         set <- function (y) {
                 x <<- y
-                invers <- NULL
+                invers <<- NULL
         }
         get <- function () x
         setinvers <- function (matInverse) invers <<- matInverse
